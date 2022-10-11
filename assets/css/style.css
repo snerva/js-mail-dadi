@@ -15,6 +15,12 @@ h1{
 .game{
     display: flex;
     flex-wrap: nowrap;
-    gap: 1.5rem;
+    justify-content: space-between;
     color: cornflowerblue;
+}
+
+.winner h2,
+span{
+    font-size: xx-large;
+    color: magenta;
 }
